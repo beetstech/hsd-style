@@ -1,0 +1,356 @@
+/*
+Theme Name: Help Scout Docs - Beetstech Edition
+Version: 3.0.45
+Description: Beetstech stylesheet for Help Scout Docs.
+Author: Cody Henderson
+Author URI: https://beetstech.com
+
+*/
+
+body {
+    font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif!important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f1f3f5!important;
+    color: #394964;
+}
+
+h1 {
+    color: #2a3b47;
+    font-size: 2.0rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: -1px;
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+h2 {
+    color: #2a3b47;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: -1px;
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+h3 {
+    color: #2a3b47!important;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: -0.01em;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+h4 {
+    color: #2a3b47;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1.35em;
+    letter-spacing: -0.01em;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #394964!important;
+    font-size: 1.0rem!important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.4em!important;
+    letter-spacing: 0;
+    padding-bottom: 1rem;
+}
+
+#fullArticle h1,
+#fullArticle h2,
+#fullArticle h3,
+#fullArticle h4,
+#fullArticle h5 {
+    color: #2a3b47!important;
+}
+
+code {
+    padding: 2px 4px;
+    font-family: 'Roboto Mono', Monaco, Menlo, Consolas, 'Courier New', monospace;
+    font-size: 12px;
+    color: #dd1144;
+    border-radius: 4px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    white-space: normal;
+    line-height: 1;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #2789db!important;
+    -webkit-box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075), 0 0 0 0.2em rgba(3, 102, 214, 0.3)!important;
+    box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075), 0 0 0 0.2em rgba(3, 102, 214, 0.3)!important;
+}
+
+/* Top Nav Bar */
+
+a.brand img {
+    width: 75px;
+}
+
+.navbar .nav li a {
+    font-size: 1.0rem;
+}
+
+.navbar .nav li a:hover {
+    color: #2a3b47;
+}
+
+.navbar .nav .active .caret {
+    border-bottom: 5px solid #DDD;
+}
+
+/* Home Page - Header & Search Bar */
+
+#docsSearch {
+    background: #3197d6;
+    padding: 5.0rem 0;
+}
+
+#docsSearch h1 {
+    color: #FFF;
+    font-size: 3rem;
+}
+
+.contentWrapper.withRelated {
+    max-width: 850px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    display: block!important;
+    float: none!important;
+    margin-top: 0;
+    padding: 3rem!important;
+}
+
+footer p span {
+    display: none;
+}
+
+#searchBar .search-query {
+    border-color: #FFF;
+}
+
+#searchBar .search-query:focus {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+#searchBar button {
+    background: #FAFAFA;
+    border: 1px solid #EEEEEE;
+    color: #666;
+    text-shadow: none;
+}
+
+#searchBar button:hover {
+    background: #EEE;
+}
+
+/* Docs Category View */
+
+.category-list .category {
+    border-color: #d6dde3;
+    border-radius: 5px;
+    background: #FFF;
+    margin: 0 15px 24px;
+    padding: 3em 1em 1.5em;
+    -webkit-transition: all 0.18s ease;
+    transition: all 0.18s ease;
+    width: calc(50% - 60px)!important;
+}
+
+.category-list .category:hover {
+    text-decoration: none;
+    background: #f8f8f8;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    -webkit-transform: translate3d(0,-2px,0);
+    transform: translate3d(0,-2px,0);
+}
+
+
+
+a#category-48 {
+    /*background-image: url(https://d1tnmg9s85krkf.cloudfront.net/wp-content/uploads/font-awesome_4-7-0_dashboard_100_0_93a1af_none.png);*/
+    background-color: #fff;
+    background-position: top 34px center !important;
+    background-repeat: no-repeat !important;
+    background-size: 50px 50px !important;
+}
+
+.category-list h3 {
+    color: #2a3b47;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-top: 4rem;
+}
+
+.category-list .category .article-count {
+    margin-top: 0;
+    padding: 0;
+}
+
+/* HTML Tables */
+#fullArticle table {
+  border-collapse: separate;
+}
+
+#fullArticle th,
+#fullArticle td {
+  padding: 8px 12px;
+}
+
+#fullArticle th {
+  background: #F9FAFA;
+  border-top: 1px solid #D3DAE0!important;
+}
+
+#fullArticle td {
+ border-top: 1px solid #D3DAE0;  
+}
+
+#fullArticle th:first-child,
+#fullArticle td:first-child {
+  border-left: 1px solid #D3DAE0;
+}
+
+#fullArticle th:last-child,
+#fullArticle td:last-child {
+  border-right: 1px solid #D3DAE0;
+}
+
+#fullArticle thead tr:first-child th:first-child {
+  border-top-left-radius: 5px;
+}
+
+#fullArticle thead tr:first-child th:last-child {
+  border-top-right-radius: 5px;
+}
+
+#fullArticle tr:last-of-type td {
+  border-bottom: 1px solid #D3DAE0;
+}
+
+#fullArticle tr:last-of-type td:first-child {
+  border-bottom-left-radius: 5px;
+}
+
+#fullArticle tr:last-of-type td:last-child {
+  border-bottom-right-radius: 5px;
+}
+
+/* "Nice" numbered list */
+
+#fullArticle dl.ol-nice {
+    margin-bottom: 1em;
+}
+
+#fullArticle dl.ol-nice dt {
+    background: #158dd8;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    margin-bottom: 1em;
+    min-width: 9px;
+    padding: 4px 9px;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+#fullArticle dl.ol-nice dd {
+    color: #72808e!important;
+    display: block;
+    font-size: 1.2rem!important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.4em;
+    letter-spacing: 0;
+    padding-bottom: 1rem;
+    padding-top: 3px;
+    margin: 0 0 15px 45px;
+}
+
+#fullArticle dl.ol-nice dd::before,
+#fullArticle dl.ol-nice dd::after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+
+/* Docs Article View */
+
+#main-content {
+    background: transparent;
+}
+
+.contentWrapper {
+    border-color: #CCC;
+    border-radius: 5px;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+h2.bts_doc_overview {
+    font-weight: 200;
+    padding-bottom: 3rem;
+    font-size: 1.7rem;
+}
+
+p.bts_specialty-text,
+li.bts_specialty-text {
+    font-size: 22px;
+    line-height: 1.36364;
+    font-weight: 300;
+    letter-spacing: 0em;
+    margin-bottom: 1.5rem;
+}
+
+.bts_beetstech-brand_help {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+img.bts_brand-help_image {
+    width: 30%;
+    height: 30%;
+    margin-right: 5%;
+}
+
+#contactModal h2,
+.abuse h2 {
+    background: #f9fafa;
+}
+
+footer p a {
+    color: #9b9b9b;
+    text-decoration: underline;
+}
